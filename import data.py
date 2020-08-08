@@ -19,3 +19,7 @@ for i in range(len(data.columns)):
     rec2[data.columns[i]]=data[data.columns[i]].values[i]
 
 records = mydatabase.myTable.insert(rec2)
+
+#time.sleep(86400) #sleep for 24 hours
+#	else:
+#		exit()
